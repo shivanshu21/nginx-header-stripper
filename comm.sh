@@ -1,11 +1,4 @@
 #!/bin/bash
-apt-get -y update
-apt-get -y install vim
-apt-get -y install zlibc zlib1g zlib1g-dev
-apt-get -y update
-apt-get -y install libcurl4-gnutls-dev --fix-missing
-apt-get -y update
-apt-get -y install git
 tar -xvzf nginx-1.13.6.tar.gz
 cd nginx-1.13.6
 cp ../pcre-8.41.tar.gz .
